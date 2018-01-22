@@ -1,0 +1,25 @@
+1)
+f :: Num a => a -> b -> Int -> Int
+             [0]  [1]   [2]    [3]
+[0] constrained polymorphic
+[1] fully polymorphic
+[2], [3] concrete
+
+2) 
+f :: zed -> Zed -> Blah
+     [0]    [1]    [2]
+[0] fully polymorhic
+[1], [2] concrete
+
+3)
+f :: Enum b => a -> b -> C
+              [0]  [1]   [2] 
+[0] fully polymorphic
+[1] constrained polymorhic
+[2] concrete
+
+4)
+f:: f -> g -> C
+   [0]  [1]  [2]
+[0], [1] fully polymorphic
+[2] concrete
