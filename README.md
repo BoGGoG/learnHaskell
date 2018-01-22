@@ -1,4 +1,4 @@
 This is just a repo with which I am learning
 
-a) Haskel from the Book "Haskell Programming from First Principles" 
-b) Getting used to git
+1. Haskel from the Book "Haskell Programming from First Principles" 
+2. Getting used to git
